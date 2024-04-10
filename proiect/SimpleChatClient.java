@@ -84,6 +84,7 @@ public class SimpleChatClient {
         String message = outgoing.getText();
         out.println(message);
         outgoing.setText("");
+
     }
 
     // Metoda pentru deconectarea de la server
